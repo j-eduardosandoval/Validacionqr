@@ -9,16 +9,29 @@ main {
     width: 80%;
     height: 505px;
     margin: 20px auto;
-    padding: 20px;    
+    padding: 20px;       
     background-color: var(--grey-seven);    
     border: 1px solid var(--grey-three);                            
 }
 .container-valid-info table {    
     width: 100%;
 }
-.container-valid-info table tr td {                                    
-                width: 50%;
+.container-valid-info table tr {                                    
+                width: 100%;
                 height: 40px;                
                 display: grid;    
-                border: 1px solid black;                            
+                margin: 2px;
+                background-color: var(--grey-six);
+                 
+    td {
+        align-items: center;
+        width: 50%;
+        
+    }   
+    .estatus {
+        width: 8%;
+        border-radius: 5px;
+        background-color: green;
+        color: white;
+    }                   
 }
