@@ -7,14 +7,20 @@ main {
 .section-one {
     display: grid;
     width: 80%;
-    height: 565px;
+    height: 505px;
     margin: 20px auto;
     padding: 20px;    
     background-color: var(--grey-seven);    
+    border: 1px solid rgb(194, 130, 130);                            
+
 }
-.container-valid-info table tr {
-                width: 20%;
-                height: 20px;
-                display: grid;                
-                background-color: aquamarine;            
+.container-valid-info table {    
+    width: 100%;
+}
+.container-valid-info table tr td {                            
+        
+                width: 50%;
+                height: 40px;                
+                display: grid;    
+                border: 1px solid black;                            
 }
