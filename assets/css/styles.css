@@ -86,11 +86,22 @@ main {
   width: 100%;
 }
 
-.container-valid-info table tr td {
-  width: 50%;
+.container-valid-info table tr {
+  width: 100%;
   height: 40px;
   display: grid;
-  border: 1px solid black;
+  margin: 2px;
+  background-color: var(--grey-six);
+}
+.container-valid-info table tr td {
+  align-items: center;
+  width: 50%;
+}
+.container-valid-info table tr .estatus {
+  width: 8%;
+  border-radius: 5px;
+  background-color: green;
+  color: white;
 }
 
 .footer {
