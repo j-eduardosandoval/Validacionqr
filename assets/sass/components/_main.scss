@@ -11,14 +11,12 @@ main {
     margin: 20px auto;
     padding: 20px;    
     background-color: var(--grey-seven);    
-    border: 1px solid rgb(194, 130, 130);                            
-
+    border: 1px solid var(--grey-three);                            
 }
 .container-valid-info table {    
     width: 100%;
 }
-.container-valid-info table tr td {                            
-        
+.container-valid-info table tr td {                                    
                 width: 50%;
                 height: 40px;                
                 display: grid;    
