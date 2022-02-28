@@ -1,0 +1,20 @@
+main {
+    background-color: var(--grey-six);
+}
+.tittle-valid {
+    text-align: center;
+}
+.section-one {
+    display: grid;
+    width: 80%;
+    height: 565px;
+    margin: 20px auto;
+    padding: 20px;    
+    background-color: var(--grey-seven);    
+}
+.container-valid-info table tr {
+                width: 20%;
+                height: 20px;
+                display: grid;                
+                background-color: aquamarine;            
+}
