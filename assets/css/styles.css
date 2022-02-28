@@ -55,7 +55,42 @@
 }
 
 body {
-  background-color: var(--grey-five);
+  font-family: var(--body-font);
+}
+
+.header-section-one {
+  width: 100%;
+  height: 70px;
+  background-color: var(--azul-tres);
+}
+
+main {
+  background-color: var(--grey-six);
+}
+
+.tittle-valid {
+  text-align: center;
+}
+
+.section-one {
+  display: grid;
+  width: 80%;
+  height: 565px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: var(--grey-seven);
+}
+
+.container-valid-info table tr {
+  width: 20%;
+  height: 20px;
+  background-color: aquamarine;
+}
+
+.footer {
+  width: 100%;
+  background-color: var(--grey-one);
+  height: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */
