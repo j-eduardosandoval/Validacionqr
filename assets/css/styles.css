@@ -79,7 +79,7 @@ main {
   margin: 20px auto;
   padding: 20px;
   background-color: var(--grey-seven);
-  border: 1px solid #c28282;
+  border: 1px solid var(--grey-three);
 }
 
 .container-valid-info table {
