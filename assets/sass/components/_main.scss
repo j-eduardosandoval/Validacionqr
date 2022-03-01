@@ -2,6 +2,7 @@ main {
     background-color: var(--grey-six);
 }
 .tittle-valid {
+    padding-top: 10PX;
     text-align: center;
 }
 .section-one {
@@ -21,17 +22,16 @@ main {
                 height: 40px;                
                 display: grid;    
                 margin: 2px;
-                background-color: var(--grey-six);
-                 
+                background-color: var(--grey-six);                 
     td {
         align-items: center;
-        width: 50%;
-        
+        width: 50%;        
     }   
     .estatus {
         width: 8%;
         border-radius: 5px;
         background-color: green;
         color: white;
+        text-align: center;
     }                   
 }
