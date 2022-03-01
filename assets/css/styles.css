@@ -69,6 +69,7 @@ main {
 }
 
 .tittle-valid {
+  padding-top: 10PX;
   text-align: center;
 }
 
@@ -102,6 +103,7 @@ main {
   border-radius: 5px;
   background-color: green;
   color: white;
+  text-align: center;
 }
 
 /* footer-contact */
