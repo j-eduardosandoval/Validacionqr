@@ -121,11 +121,25 @@ main {
 .container-valid-info table tr .estatus {
   width: 20%;
   border-radius: 5px;
-  background-color: green;
+  background-color: #ee0000;
   color: white;
   text-align: center;
 }
 
+@media only screen and (max-width: 992px) {
+  .container-valid-info table {
+    width: 100%;
+  }
+
+  .container-valid-info table tr {
+    width: 100%;
+    height: 40px;
+    margin: 2px;
+    background-color: var(--grey-six);
+    align-items: center;
+    justify-items: center;
+  }
+}
 /* footer-contact */
 .footer-contact {
   background: var(--grey-two);
