@@ -32,8 +32,27 @@ main {
     .estatus {
         width: 20%;
         border-radius: 5px;
-        background-color: green;
+        background-color: rgb(238, 0, 0);
         color: white;
         text-align: center;
     }                   
 }
+
+@media only screen and (max-width: 992px) {
+    .container-valid-info table {
+     width: 100%;
+    }
+    .container-valid-info table tr {
+      
+      width: 100%;
+      height: 40px;
+      
+      margin: 2px;
+      background-color: var(--grey-six);
+      align-items: center;
+      justify-items: center;
+  
+      
+    }
+  }
+  
