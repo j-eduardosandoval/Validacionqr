@@ -1,7 +1,6 @@
 main {
     background-color: var(--grey-six);
 }
-
 .section-one {
     width: 80%;
     height: 505px;    
@@ -42,17 +41,13 @@ main {
     .container-valid-info table {
      width: 100%;
     }
-    .container-valid-info table tr {
-      
+    .container-valid-info table tr {      
       width: 100%;
-      height: 40px;
-      
+      height: 40px;      
       margin: 2px;
       background-color: var(--grey-six);
       align-items: center;
-      justify-items: center;
-  
-      
+      justify-items: center;        
     }
   }
   
